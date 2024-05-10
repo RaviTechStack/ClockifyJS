@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clock.css">
+    <title>Digital Clock</title>
+</head>
+
+<body onload="time()">
+    <div class="container center">
+        <div class="time-content center">
+            <div class="time flex">
+                <div class="upper center">Hour</div>
+                <div class="bottom center" id="hour">00</div>
+            </div>
+            <div class="time flex reverse">
+                <div class="upper center">Minute</div>
+                <div class="bottom center" id="minute">00</div>
+            </div>
+            <div class="time flex">
+                <div class="upper center">Seconds</div>
+                <div class="bottom center" id="second">00</div>
+            </div>
+            <div class="time center" id="session">AM</div>
+        </div>
+    </div>
+
+
+    <script src="clock.js"></script>
+</body>
+
+</html>
