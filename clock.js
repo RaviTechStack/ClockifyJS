@@ -8,6 +8,7 @@ const time = () =>{
     let second = document.querySelector("#second").innerHTML = date.getSeconds();
     if(second.innerHTML < 10){
         second.innerHTML = "0" + second.innerHTML
+        console.log("hit")
     }
 
     hour.innerHTML = date.getHours();

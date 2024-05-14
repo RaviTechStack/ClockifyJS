@@ -17,6 +17,7 @@ body{
     width: 100%;
     background: url("./clock-bg.jfif") no-repeat;
     background-size: 100%;
+    background-position: 100%;
 }
 .time-content{
     gap: .9rem;
@@ -51,4 +52,13 @@ body{
     height: 4rem;
     font-size: 2rem;
     align-self: flex-end;
+}
+
+@media (max-width : 1150px){
+    html{
+        font-size: 66.5%;
+    }
+   .container{
+    background-size: cover;
+   }
 }
