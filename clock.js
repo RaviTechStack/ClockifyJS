@@ -2,10 +2,10 @@ const time = () =>{
     let date = new Date();
     let hour = document.querySelector("#hour")
     let minute = document.querySelector("#minute")
-   
+    let second = document.querySelector("#second")
     
     let session = document.querySelector("#session")
-    let second = document.querySelector("#second").innerHTML = date.getSeconds();
+    second.innerHTML = date.getSeconds();
     if(second.innerHTML < 10){
         second.innerHTML = "0" + second.innerHTML
         console.log("hit")
